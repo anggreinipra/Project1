@@ -472,13 +472,14 @@ body {
 }
 
 .contact-content {
-  padding: 0% 10%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
 }
 
 .contact-content .socmed,
-address {
+address,
+.maps {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
@@ -511,7 +512,6 @@ address {
 
 .contact-content .maps {
   border: none;
-  overflow: hidden;
   border-radius: 10px;
   box-shadow: 0px 10px 15px rgba(43, 43, 43, 0.5);
 }
@@ -682,6 +682,13 @@ footer {
   .career .career-content-3 p {
     width: 90%;
   }
+
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem 5rem;
+  }
 }
 
 /* Handphone */
@@ -708,15 +715,36 @@ footer {
 
   .contact-content {
     display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
   }
 
-  .contact h2 {
-    margin-bottom: 0.5rem;
+  .contact-content .socmed {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+    align-items: flex-start;
+    gap: 0 0;
   }
-  .contact h3 {
-    margin-bottom: 0.5rem;
-    padding: 0 0;
+  .contact-content .address p {
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    align-items: flex-start;
+  }
+  .contact .partner h3 {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .contact-content .socmed {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-content .socmed h3 {
+    display: none;
   }
 }
