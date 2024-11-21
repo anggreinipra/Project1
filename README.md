@@ -135,40 +135,14 @@ To deploy your website to NiagaHoster, you need to set up a hosting account and 
 Once your site is live on Netlify, you can connect your own custom domain by update DNS settings.
 
 - In your Netlify dashboard, go to your site’s settings then set up a custom domain.
-
-  <img src="./asset/img/01. setup custom domain.png" alt="setup custom domain" width="350" />
-
 - Add custom domain
-
-  <img src="./asset/img/02. add custom domain.png" alt="Add custom domain" width="350" />
-
 - Add domain alias
-
-   <img src="./asset/img/03. add domain alias.png" alt="Add domain alias" width="350" />
-
 - Verify set up Netlify to DNS
-
-   <img src="./asset/img/04. Verify set up Netlify to DNS.png" alt=" Verify set up Netlify to DNS" width="350" />
-
 - Nameserver changed
-
-  <img src="./asset/img/06. Nameserver changed.png" alt="Nameserver changed" width="350" />
-
 - Awaiting Netlify DNS<br>Netlify is waiting for DNS settings to be updated or propagated before your website can go live on your custom domain. This process may take up to 24 hours or less.<br>
-
-  <img src="./asset/img/07. Awaiting Netlify DNS.png" alt="Awaiting Netlify DNS" width="350" />
-
 - Check the website regularly
-
-   <img src="./asset/img/08. Check the website regularly.png" alt="Check the website regularly" width="350" />
-
 - DNS Verified<br>DNS changes have been successfully propagated across the internet, and Netlify can now properly associate your custom domain with your website hosted on their platform.
-
-  <img src="./asset/img/09. DNS verified.png" alt="DNS verified" width="350" />
-
-- Your Website is Ready!<br>Now you can visit the website by follow the link (e.g., https://anggreinipra.com/)
-
-   <img src="./asset/img/10. Go-live.png" alt="Go Live" width="350" />
+- Your Website is Ready!<br>Now you can visit the website by follow the link <br>(e.g., https://anggreinipra.com/)
 
 ## License
 
