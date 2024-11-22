@@ -133,7 +133,7 @@ Once your site is live on Netlify, you can connect your own custom domain by upd
 - In your Netlify dashboard, go to your site’s settings then set up a custom domain.
   <img src="./asset/img/1 Deploy.png" alt="Deploy1" width="350" />
 - Add custom domain then add domain alias
-- Verify set up Netlify to DNS and change Namesever
+- Verify set up Netlify to DNS and change Namesever<br>
   <img src="./asset/img/2 Deploy.png" alt="Deploy2" width="350" />
 - Awaiting Netlify DNS<br>Netlify is waiting for DNS settings to be updated or propagated before your website can go live on your custom domain. This process may take up to 24 hours or less.<br>
   <img src="./asset/img/3 Deploy.png" alt="Deploy3" width="350" />
