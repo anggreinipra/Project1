@@ -4,17 +4,13 @@ Welcome to the SunnyCo website, where we offer innovative solar energy solutions
 
 ## Table of Content
 
-1. [Project Overview](#Project-Overview)
-2. [Structure of the Website](#Structure-of-the-Website)
-3. [Technologies Used](#Technologies-Used)
-4. [Process Breakdown](#Process-Breakdown)
+1. [Project Overview](#project-overview)
+2. [Structure of the Website](#structure-of-the-website)
+3. [Technologies Used](#technologies-used)
+4. [Process Breakdown](#process-breakdown)
 5. [Installation](#installation)
-6. [Contributing](#contributing)
-7. [Deployment](#Deployment)
-   - [Set Up Hosting on Niagahoster](#1-set-up-hosting-on-niagahoster)
-   - [Register Netlify](#2-register-netlify)
-   - [Connect Your Repository in Github to Netlify](#3-connect-your-repository-in-github-to-netlify)
-   - [Connect a Custom Domain](#4-connect-a-custom-domain-optional)
+6. [Contributing](#contribution)
+7. [Deployment](#deployment)
 8. [License](#license)
 
 ## Project Overview
@@ -135,18 +131,20 @@ To deploy your website to NiagaHoster, you need to set up a hosting account and 
 Once your site is live on Netlify, you can connect your own custom domain by update DNS settings.
 
 - In your Netlify dashboard, go to your site’s settings then set up a custom domain.
-- Add custom domain
-- Add domain alias
-- Verify set up Netlify to DNS
-- Nameserver changed
+  <img src="./asset/img/1 Deploy.png" alt="Deploy1" width="350" />
+- Add custom domain then add domain alias
+- Verify set up Netlify to DNS and change Namesever
+  <img src="./asset/img/2 Deploy.png" alt="Deploy2" width="350" />
 - Awaiting Netlify DNS<br>Netlify is waiting for DNS settings to be updated or propagated before your website can go live on your custom domain. This process may take up to 24 hours or less.<br>
+  <img src="./asset/img/3 Deploy.png" alt="Deploy3" width="350" />
 - Check the website regularly
-- DNS Verified<br>DNS changes have been successfully propagated across the internet, and Netlify can now properly associate your custom domain with your website hosted on their platform.
-- Your Website is Ready!<br>Now you can visit the website by follow the link <br>(e.g., https://anggreinipra.com/)
+- DNS Verified<br>DNS changes have been successfully propagated across the internet, and Netlify can now properly associate your custom domain with your website hosted on their platform.<br>
+  <img src="./asset/img/4 Deploy.png" alt="Deploy4" width="350" />
+- Your Website is Ready!<br>Now you can visit the website by follow the link <br> <img src="./asset/img/5 Deploy.png" alt="Deploy5" width="350" /><br>**(e.g., https://anggreinipra.com/)**
 
 ## License
 
-_Used for submission Assigment Project Milestone 2, RevoU FSSE Program._
+_Used for submission Assigment Project Milestone 1, RevoU FSSE Program._
 
 ---
 
